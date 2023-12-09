@@ -5,7 +5,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import UnityAR from "./UnityAR.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -19,7 +19,9 @@ import dart from "./tech/dart.png";
 import kotlin from "./tech/kotlin.png";
 import swiftui from "./tech/swiftui.png";
 import threejs from "./tech/threejs.svg";
-
+import CSharp from './tech/Csharp.png';
+import springboot from './tech/springboot.png';
+import jenkins from './tech/jenkins.png';
 
 import vectors from "./company/vectors.jpg";
 import spectrum from "./company/spectrum.jpg";
@@ -28,6 +30,9 @@ import artie from "./artie.png";
 import core from "./core.png";
 
 export {
+  CSharp,
+  springboot,
+  jenkins,
   logo,
   backend,
   mobile,
@@ -38,6 +43,7 @@ export {
   css,
   docker,
   figma,
+  UnityAR,
   git,
   html,
   javascript,

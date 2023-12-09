@@ -6,6 +6,9 @@ import {
     swiftui,
     html,
     css,
+    jenkins,
+    springboot,
+    CSharp,
     reactjs,
     dart,
     kotlin,
@@ -19,7 +22,8 @@ import {
     threejs,
     vectors,
     spectrum,
-    clothy
+    clothy,
+    UnityAR
 } from "../assets";
 
 export const navLinks = [
@@ -57,14 +61,7 @@ const services = [
 ];
 
 const technologies = [
-    {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
+
     {
         name: "JavaScript",
         icon: javascript,
@@ -98,12 +95,20 @@ const technologies = [
         icon: threejs,
     },
     {
-        name: "git",
-        icon: git,
+        name: "C#",
+        icon: CSharp,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "Jenkins",
+        icon: jenkins,
+    },
+    {
+        name: "SpringBoot",
+        icon: springboot,
+    },
+    {
+        name: "git",
+        icon: git,
     },
     {
         name: "docker",
@@ -206,6 +211,27 @@ const projects = [
         ],
         image: core,
         source_code_link: "https://github.com/",
+    },
+    {
+        name: "FireFighter AR",
+        description:
+            "Through the fusion of Unity development and a synergy of cutting-edge technologies like GPS, camera, accelerometer, touch input, and speaker functionalities, I crafted an immersive AR game where FireFighters extinguish fire in augmented reality and heroically rescue individuals using an ambulance based on their real-world location",
+        tags: [
+            {
+                name: "Unity",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "C#",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Augment Reality",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: UnityAR,
+        source_code_link: "https://github.com/HaithemGhattass/FireFighter",
     },
 ];
 
